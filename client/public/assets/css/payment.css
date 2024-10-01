@@ -1,0 +1,79 @@
+
+/*Payment*/
+.wrap{
+    width: 100vh;
+    min-height: 50vh;
+    font-size: 1.2rem;
+    display: flex;
+    margin-left: 500px;
+    margin-top: 50px;
+    font-family: cursive;
+}
+.payment-field{
+    
+    background: #907d7d;
+    max-width: 850px;
+    min-height: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 1.5rem;
+    border-radius: 10px;
+}
+.left{
+    flex-basis: 50% ;
+}
+.right{
+    flex-basis: 50%;
+}
+.right a{
+    width: 100%;
+    height: 100%;
+    margin-top: 30px;
+    color: #060606;
+    border: 0;
+    font-size: 18px;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px black;
+    cursor: pointer;
+    font-family: cursive;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+.right a:hover{
+    background-color: #5f5d5d;
+    transform: scale(1);
+}
+
+.payment-field form{
+    padding: 1rem;
+}
+form input[type="text"]{
+    width: 100%;
+    padding: 0.5rem 0.7rem;
+    margin: 0.5rem 0;
+    outline: none;
+}
+#city{
+    margin-top: 0.5rem;
+}
+select{
+    padding: 0.5rem 0.7rem;
+    width: 100%;
+}
+.checkoutbtn{
+    width: 100%;
+    padding: 0.7rem 1.5rem;
+    background: #413b3b;
+    color: white;
+    border: none;
+    outline: none;
+    margin-top: 1rem;
+    cursor: pointer;
+
+}
+.checkoutbtn:hover{
+    background-color: #454242;
+}
+

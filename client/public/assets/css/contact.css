@@ -1,0 +1,147 @@
+section{
+    background: transparent;
+    width: 60%;
+    margin-left: 300px;
+    box-shadow: 5px 10px 10px rgb(114, 113, 113);
+}
+.contact{
+    position: relative;
+    min-height: 50vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 3%;
+    margin-top: 15px;
+}
+ .content{
+    max-width: 800px;
+    text-align: center;
+
+}
+ .content h2{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #0f0f0f;
+    font-family: cursive;
+}
+ .content p{
+    
+    color: #454242;
+    font-family: cursive;
+    font-weight: bolder;
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+
+}
+ .contactInfo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+
+}
+.box{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+ .icon{
+    min-width: 60px;
+    height: 60px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+}
+.text{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #0f0f0f;
+    flex-direction: column;
+    font-weight: 300;
+
+}
+.text h3{
+    font-weight: 500;
+    color: rgb(6, 6, 6);
+    font-family: cursive;
+
+}
+.text p{
+   
+    color: rgb(96, 84, 84);
+    font-family: cursive;
+
+}
+.contactForm{
+    width: 50%;
+    padding: 40px;
+    background: #fff;
+    border-radius: 5px;
+}
+.contactForm h2{
+    font-size: 30px;
+    color: #333;
+    font-weight: 500;
+    font-family: cursive;
+}
+.inputBox{
+   position: relative;
+   width:100%; 
+   margin-top: 10px;
+}
+.inputBox input, textarea{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+
+}
+span{
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666;
+    font-family: cursive;
+
+}
+.inputBox input:focus ~ span,
+.inputBox input:valid ~ span,
+.inputBox textarea:focus ~ span,
+.inputBox textarea:valid ~ span{
+    color: #e91e63;
+    font-size: 12px;
+    transform: translateY(-20px);
+}
+ button{
+    width: 100px;
+    background: #947b8f;
+    color: #0a0a0a;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+    font-family: cursive;
+ }
+ button:hover{
+    background-color: #454242;
+    color: #fff;
+ }

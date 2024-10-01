@@ -1,0 +1,339 @@
+.content{
+    width: 85%;
+    height:550px;
+    display: flex;
+    border: transparent;
+    margin-left: 125px;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+.content h2{
+    font-size: 35px;
+    font-weight: 150;
+    letter-spacing: 3px;
+    text-shadow: 3px 3px 5px rgb(105, 103, 103);
+    margin-left: 90px;
+    margin-top: 70px;
+    font-style: oblique; 
+}
+
+.content img{
+    height: 550px;
+    width: 500px;
+    border-radius: 6px;
+    margin-left: 60px;
+    margin-top: 10px;
+    box-shadow: 3px 5px 5px 3px rgb(138, 138, 139) ;
+    background-color: transparent;
+    opacity: 3;
+    
+}
+/*new arriavals*/
+.sub-heading{
+    text-align: center;
+    color: black;
+    font-size: 2rem;
+    padding-top: 1rem;
+    text-shadow: 3px 3px 5px rgb(120, 116, 116);
+}
+
+.heading{
+    text-align: center;
+    color:rgb(51, 53, 51) ;
+    font-size: 3rem;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 5px rgb(61, 59, 59);
+    padding-top: 0.5rem;
+}
+.about .container .heading {
+    color: #f9f2f2;
+    text-shadow: 3px 3px 5px rgb(5, 5, 5);
+}
+
+.box-container {
+    display: flex; 
+    column-gap: 3rem;
+    row-gap: 3rem;
+    text-align: center;
+    cursor: pointer;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    /* max-width: 1200px; */
+    align-items: flex-start;
+    padding: 5%;
+    
+
+}
+.box-container .box{
+    padding: 2.5rem;
+    background-color: rgb(225, 224, 224);
+    border-radius: .5rem;
+    position: relative;
+}
+.box img{
+    width: 30vh;
+    height: 30vh;
+    margin-top: 10px;
+
+}
+.container{
+    margin-top: 60px;
+}
+.box-container .box:hover{
+    transform: scale(1.1);
+}
+/*about us*/
+
+.about{
+    background-image: url(../images/about\ us.jpg);
+    height: 80vh;
+}
+.contents {
+    display: block;
+    padding: 2%;
+
+}
+.aboutus{
+    justify-content: center;
+}
+.icons-container{
+    display: flex;
+    height: 50px;
+    width: 35%;
+    column-gap: 15px;
+    margin-top: 20px;
+}
+.icons-container .icons{
+    background: #e9e5e5;
+    border-radius: .5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 3%;
+}
+.icons-container .icons span{
+    font-size: 1rem;
+    font-family: cursive;
+    color: #010101;
+}
+.contents h3{
+    font-size: 2rem;
+    color: #fffbfb;
+    text-shadow: 3px 3px 5px rgb(0, 0, 0);
+}
+.contents p{
+    font-size: 1.5rem;
+    word-spacing: 5%;
+    font-family: cursive;
+    margin-top: 20px;
+    color: #f4efef;
+    /* background-image: linear-gradient(rgb(237, 222, 222),rgb(186, 214, 237), rgb(241, 214, 236) ); */
+    padding: 1%;
+    text-shadow: 5px 5px 5px rgb(0, 0, 0);
+}
+.icons-container a{
+    width: 40%;
+    color: #0f0f0f;
+    border: 0;
+    outline: none;
+    font-size: 18px;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px black;
+    cursor: pointer;
+    font-family: cursive;
+    display: flex;
+    background: #e9e5e5;
+    text-decoration: none;
+    justify-content: center;
+    padding: 0 5%;
+    text-shadow: 3px 3px 5px rgb(0, 0, 0);
+
+}
+.icons-container a:hover{
+    background-color: #5f5d5d;
+    transform: scale(1);
+}
+
+
+
+/* input{
+    height: 50px;
+    width:400px ;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+} */
+
+.btn{
+    height: 40px;
+    width: 80px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 30px;
+    margin-left: 10px;
+}
+.btn a{
+    text-decoration: none;
+    color: #0f0f0f;
+}
+
+.loginform{
+    width: 450px;
+    padding: 30px 20px;
+    background-color: rgb(213, 196, 196);
+    box-shadow: 0px 0px 10px 3px #0f0f0f;
+    height: 550px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+.loginform input{
+    width: 400px;
+    height: 40px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+}
+.loginform h1{
+
+    text-align: center;
+    font-family: cursive;
+}
+
+.field-group{
+    position: relative;
+    width:100%; 
+    margin-top: 10px;
+ }
+ .field-group input{
+    width: 100%;
+    padding: 20px 0;
+    font-size: 16px;
+    margin: 15px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+
+}
+.field-group span{
+    position: absolute;
+    left: 0;
+    padding: 15px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #201f1f;
+    font-family: cursive;
+
+}
+.field-group input:focus ~ span,
+.fieldgroup  input:valid ~ span{
+    color: #e91e63;
+    font-size: 15px;
+    transform: translateY(-30px);
+}
+.already h3{
+    font-family: cursive;
+    margin-top: 50px;
+}
+.already a:hover{
+    color: #000000;
+
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.overlay-container {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.login-icon{
+    cursor: pointer;
+}
+#exit{
+    margin-left: 400px;
+    width: 100px;
+    height: 50px;
+    background-color: rgb(24, 227, 38);
+}
+.login{
+    border-radius: 10px;
+    height: 35px;
+    width: 80px;
+    cursor: pointer;
+    margin-top: 50px;
+    margin-left: 30px;
+
+}
+.shopnow-btn{
+    width: 100px;
+    height: 50px;
+    margin-top: 300px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.login-shop h1{
+    font-family:cursive;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.button-block button:hover{
+    background-color: #5f5d5d;
+    transform: scale(1);
+}
+.button-block button{
+    width: 20%;
+    margin-top: 20px;
+    padding: 10px 0;
+    color: #060606;
+    border: 0;
+    outline: none;
+    font-size: 18px;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px black;
+    cursor: pointer;
+    font-family: cursive;
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.button-block a{
+    width: 20%;
+    margin-top: 5px;
+    padding: 10px 0;
+    color: #060606;
+    border: 0;
+    outline: none;
+    font-size: 18px;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px black;
+    cursor: pointer;
+    font-family: cursive;
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.button-block a:hover{
+    background-color: #5f5d5d;
+    transform: scale(1);
+}
+
+

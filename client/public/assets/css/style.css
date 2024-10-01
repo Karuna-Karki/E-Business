@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(rgb(223, 220, 220),rgb(212, 187, 141), rgb(174, 215, 248) );
+    background-size: fill;
+}
+
+nav{
+    width:100%;
+    height: 14vh;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    padding: 0 5%;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    background-color: #dbd2d2;
+    box-shadow: 3px 5px 5px rgb(200, 200, 200);
+}
+
+.menu{
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 55px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 1px black;
+    font-size: 1.1rem; 
+    gap: 10px;
+    font-family: cursive;
+}
+
+.menu a:hover{
+    color: #ccc;
+    transform: scale(1.1);
+}
+
+.logo{
+    text-align: center;
+    text-shadow: 1px 1px 2px black;
+}
+.logo img{
+    width: 27vh;
+    height: 22vh;
+    /* margin-top: 5px; */
+    cursor: pointer;
+
+}
+/*search*/
+.searchBox{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchText{
+    width: 20rem;
+    padding: 1rem;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    transition: all 0.2s linear;
+}
+.searchBtn{
+    width: 5rem;
+    height: 5rem;
+    position: absolute;
+    right: 0;
+    display: grid;
+    place-items: center;
+
+}
+
+/* .searchText:focus{
+    outline: none;
+}
+
+.searchBox:hover > .searchText{
+    width: 20rem;
+    padding: 1rem;
+}
+
+.searchBox:hover > .searchBtn{
+    right: 0;
+    display: flex;
+    align-items: center;
+    width: 5rem;
+    height: 5rem;
+    color: black;
+    position: absolute;
+    top: 50%;
+} */
+
+.searchBox ::placeholder{
+     color: rgb(133, 129, 129);
+     font-family: cursive;
+     font-size: larger;
+}
+
+
+
+
+
+
+/*footer*/
+section.footer{
+    background: #dbd2d2;
+    width: 100%;
+    margin: 0;
+    box-shadow: none;
+}
+
+.footer .footer-container{
+    display: flex;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    column-gap: 15rem;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+ .fbox h3{
+    padding: .5rem 0;
+    font-size: 1.3rem;
+    color: black;
+    margin-top: 20px;
+    font-family: cursive;
+}
+
+ .fbox a{
+    display: block;
+    padding: .5rem 0;
+    font-size: 1.3rem;
+    color: rgb(70, 69, 69);
+    text-decoration: none;
+    font-family: cursive;
+}
+
+ .fbox a:hover{
+    color: #020202;
+    text-decoration: underline;
+}
+.credit{
+    text-align: center;
+    margin-top: 10px;
+    font-size: large;
+    color: rgb(40, 38, 38);
+}
